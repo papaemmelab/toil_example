@@ -23,7 +23,7 @@ setup(
     version=VERSION,
 
     # in combination with recursive-includes in MANIFEST.in, non-python files
-    # included inside the toil_example will be copied to the
+    # within the toil_example will be copied into the
     # site-packages and wheels installation directories
     include_package_data=True,
 

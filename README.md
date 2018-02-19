@@ -8,19 +8,15 @@ A Command Line Interface created with [cookiecutter-toil](https://github.com/leu
 
 # Features
 
-* 📦 &nbsp; **Installation**
+* 📦 &nbsp; **Easy Installation**
 
-        # local
-        pip install --editable .
-
-        # pypi (if available)
         pip install toil_example
 
-* 🍉 &nbsp; **Usage**
+* 🍉 &nbsp; **Usage Documentation**
 
         toil_example --help
 
-* 🐳 &nbsp; **Container Usage**
+* 🐳 &nbsp; **Containers Support**
 
     Check our docker hub for toil_example images. Alternatively clone this repo and build the image yourself.
 
@@ -36,9 +32,17 @@ A Command Line Interface created with [cookiecutter-toil](https://github.com/leu
 
 Contributions are welcome, and they are greatly appreciated, check our [contributing guidelines](CONTROBUTING.md)!
 
+# Credits
+
+This package was created using [Cookiecutter] and the
+[leukgen/cookiecutter-toil] project template.
+
+
 <!-- References -->
 [singularity]: http://singularity.lbl.gov/
 [docker2singularity]: https://github.com/singularityware/docker2singularity
+[cookiecutter]: https://github.com/audreyr/cookiecutter
+[leukgen/cookiecutter-toil]: https://github.com/leukgen/cookiecutter-toil
 
 <!-- Badges -->
 [codecov_badge]: https://codecov.io/gh/leukgen/toil_example/branch/master/graph/badge.svg
