@@ -20,7 +20,7 @@
     "install_requires": [
         "Click>=6.7",
         "docker==2.5.1",
-        "toil_container>=0.1.0"
+        "toil_container>=0.2.0"
     ],
     "extras_require": {
         "test": [
