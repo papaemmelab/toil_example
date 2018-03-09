@@ -6,7 +6,9 @@ Submmit an [issue] if you found a bug or have a great idea for a new feature!
 
 ## Development
 
-Set up for local development:
+Follow these steps for local development:
+
+1. Bet you've read the [Zen Of Python].
 
 1. Clone your toil_example locally:
 
@@ -61,7 +63,7 @@ Set up for local development:
         git add leukgen/VERSION
         git commit -m ":gem: bump to version 0.1.0"
 
-1. Submit a pull request through the GitHub website.
+1. Submit a [pull request] through the GitHub website.
 
 <!-- References -->
 [`VERSION`]: ../leukgen/VERSION
@@ -70,7 +72,9 @@ Set up for local development:
 [pytest-env]: https://github.com/MobileDynasty/pytest-env
 [semantic versioning]: http://semver.org/
 [tox]: http://tox.readthedocs.io/
+[pulls]: https://github.com/leukgen/toil_example/pulls
 [pydocstyle]: http://www.pydocstyle.org/en
 [pylint]: https://www.pylint.org/
 [coverage]:https://coverage.readthedocs.io
-[issue]: https://github.com/leukgen/toil_example/issues
+[pull request]: https://github.com/leukgen/toil_example/compare
+[zen of python]: https://www.python.org/dev/peps/pep-0020/#the-zen-of-python
