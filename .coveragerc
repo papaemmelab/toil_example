@@ -1,15 +1,11 @@
 [paths]
 source =
    toil_example
-   */site-packages/toil_example
+   /test/toil_example
 
 [run]
-include =
-    toil_example/*
-
 source =
     toil_example
-    tests
 
 omit =
     *toil_example/__main__.py
