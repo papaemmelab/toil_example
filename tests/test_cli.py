@@ -1,4 +1,4 @@
-"""=toil_example cli tests."""
+"""toil_example cli tests."""
 
 from os.path import join
 

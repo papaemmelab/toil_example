@@ -21,6 +21,3 @@ from toil_example import commands
 def main():
     """toil_example main command."""
     commands.main()
-
-if __name__ == "__main__":
-    main()  # pylint: disable=no-value-for-parameter

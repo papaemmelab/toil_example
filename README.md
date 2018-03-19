@@ -8,23 +8,35 @@
 
 A Command Line Interface created with [cookiecutter-toil](https://github.com/leukgen/cookiecutter-toil).
 
-## Features
+## Usage
 
-* 📦 &nbsp; **Easy Installation**
+This package uses docker to manage its dependencies, there are 2 ways of using it:
 
+1. Running the [container][docker_base] in single machine mode without [`--batchSystem`] support:
+
+        # using docker
+        docker run -it leukgen/toil_example --help
+
+        # using singularity
+        singularity run docker://leukgen/toil_example --help
+
+1. Installing the python package from [pypi][pypi_base] and passing the container as a flag:
+
+        # install package
         pip install toil_example
 
-* 🍉 &nbsp; **Usage Documentation**
-
-        toil_example --help
-
-* 🐳 &nbsp; **Containers Support**
-
-        toil_example
+        # run with docker
+        toil_example [TOIL-OPTIONS] [PIPELINE-OPTIONS]
+            --docker leukgen/toil_example
             --volumes <local path> <container path>
-            --docker {or --singularity} <image path or name>
-            jobstore
-        
+            --batchSystem LSF
+
+        # run with singularity
+        toil_example [TOIL-OPTIONS] [PIPELINE-OPTIONS]
+            --singularity docker://leukgen/toil_example
+            --volumes <local path> <container path>
+            --batchSystem LSF
+See [docker2singularity] if you want to use a [singularity] image instead of using the `docker://` prefix.
 
 ## Contributing
 
@@ -40,6 +52,7 @@ This package was created using [Cookiecutter] and the
 [docker2singularity]: https://github.com/singularityware/docker2singularity
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [leukgen/cookiecutter-toil]: https://github.com/leukgen/cookiecutter-toil
+[`--batchSystem`]: http://toil.readthedocs.io/en/latest/developingWorkflows/batchSystem.html?highlight=BatchSystem
 
 <!-- Badges -->
 [docker_base]: https://hub.docker.com/r/leukgen/toil_example
