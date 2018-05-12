@@ -1,7 +1,7 @@
 [paths]
 source =
    toil_example
-   /test/toil_example
+   */toil_example
 
 [run]
 source =
