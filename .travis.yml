@@ -18,6 +18,7 @@ after_success:
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
+  skip_existing: true
   user: leukgen
   password: <TO REPLACE THIS RUN `travis encrypt --add deploy.password`>
   on:
