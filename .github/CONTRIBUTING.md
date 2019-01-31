@@ -12,7 +12,7 @@ Follow these steps for local development:
 
 1. Clone your toil_example locally:
 
-        git clone git@github.com:leukgen/toil_example.git
+        git clone git@github.com:papaemmelab/toil_example.git
 
 1. Create a branch for local development:
 
@@ -70,15 +70,15 @@ Follow these steps for local development:
 1. Submit a [pull request] through the GitHub website.
 
 <!-- References -->
-[`VERSION`]: ../leukgen/VERSION
+[`VERSION`]: ../papaemmelab/VERSION
 [`.gitmessage`]: ../.gitmessage
 [pytest]: https://docs.pytest.org/en/latest/
 [pytest-env]: https://github.com/MobileDynasty/pytest-env
 [semantic versioning]: http://semver.org/
 [tox]: http://tox.readthedocs.io/
-[pulls]: https://github.com/leukgen/toil_example/pulls
+[pulls]: https://github.com/papaemmelab/toil_example/pulls
 [pydocstyle]: http://www.pydocstyle.org/en
 [pylint]: https://www.pylint.org/
 [coverage]:https://coverage.readthedocs.io
-[pull request]: https://github.com/leukgen/toil_example/compare
+[pull request]: https://github.com/papaemmelab/toil_example/compare
 [zen of python]: https://www.python.org/dev/peps/pep-0020/#the-zen-of-python

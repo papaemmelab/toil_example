@@ -19,10 +19,10 @@ deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   skip_existing: true
-  user: leukgen
+  user: papaemmelab
   password: <TO REPLACE THIS RUN `travis encrypt --add deploy.password`>
   on:
     tags: true
-    repo: leukgen/toil_example
+    repo: papaemmelab/toil_example
     python: 2.7
     branch: master
