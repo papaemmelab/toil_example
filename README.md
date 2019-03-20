@@ -48,22 +48,19 @@ Contributions are welcome, and they are greatly appreciated, check our [contribu
 This package was created using [Cookiecutter] and the
 [papaemmelab/cookiecutter-toil] project template.
 
-<!-- References -->
-[singularity]: http://singularity.lbl.gov/
-[docker2singularity]: https://github.com/singularityware/docker2singularity
-[cookiecutter]: https://github.com/audreyr/cookiecutter
-[papaemmelab/cookiecutter-toil]: https://github.com/papaemmelab/cookiecutter-toil
 [`--batchSystem`]: http://toil.readthedocs.io/en/latest/developingWorkflows/batchSystem.html?highlight=BatchSystem
-
-<!-- Badges -->
-[docker_base]: https://hub.docker.com/r/papaemmelab/toil_example
-[docker_badge]: https://img.shields.io/docker/build/papaemmelab/toil_example.svg
-[automated_badge]: https://img.shields.io/docker/automated/papaemmelab/toil_example.svg
-[codecov_badge]: https://codecov.io/gh/papaemmelab/toil_example/branch/master/graph/badge.svg
-[codecov_base]: https://codecov.io/gh/papaemmelab/toil_example
-[pypi_badge]: https://img.shields.io/pypi/v/toil_example.svg
-[pypi_base]: https://pypi.python.org/pypi/toil_example
-[travis_badge]: https://img.shields.io/travis/papaemmelab/toil_example.svg
-[travis_base]: https://travis-ci.org/papaemmelab/toil_example
+[automated_badge]: https://img.shields.io/docker/cloud/automated/papaemmelab/toil_example.svg
 [black_badge]: https://img.shields.io/badge/code%20style-black-000000.svg
 [black_base]: https://github.com/ambv/black
+[codecov_badge]: https://codecov.io/gh/papaemmelab/toil_example/branch/master/graph/badge.svg
+[codecov_base]: https://codecov.io/gh/papaemmelab/toil_example
+[cookiecutter]: https://github.com/audreyr/cookiecutter
+[docker_badge]: https://img.shields.io/docker/build/cloud/papaemmelab/toil_example.svg
+[docker_base]: https://hub.docker.com/r/papaemmelab/toil_example
+[docker2singularity]: https://github.com/singularityware/docker2singularity
+[papaemmelab/cookiecutter-toil]: https://github.com/papaemmelab/cookiecutter-toil
+[pypi_badge]: https://img.shields.io/pypi/v/toil_example.svg
+[pypi_base]: https://pypi.python.org/pypi/toil_example
+[singularity]: http://singularity.lbl.gov/
+[travis_badge]: https://img.shields.io/travis/papaemmelab/toil_example.svg
+[travis_base]: https://travis-ci.org/papaemmelab/toil_example
