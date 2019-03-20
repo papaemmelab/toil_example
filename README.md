@@ -55,7 +55,7 @@ This package was created using [Cookiecutter] and the
 [codecov_badge]: https://codecov.io/gh/papaemmelab/toil_example/branch/master/graph/badge.svg
 [codecov_base]: https://codecov.io/gh/papaemmelab/toil_example
 [cookiecutter]: https://github.com/audreyr/cookiecutter
-[docker_badge]: https://img.shields.io/docker/build/cloud/papaemmelab/toil_example.svg
+[docker_badge]: https://img.shields.io/docker/cloud/build/papaemmelab/toil_example.svg
 [docker_base]: https://hub.docker.com/r/papaemmelab/toil_example
 [docker2singularity]: https://github.com/singularityware/docker2singularity
 [papaemmelab/cookiecutter-toil]: https://github.com/papaemmelab/cookiecutter-toil
