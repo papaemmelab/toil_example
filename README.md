@@ -63,4 +63,4 @@ This package was created using [Cookiecutter] and the
 [pypi_base]: https://pypi.python.org/pypi/toil_example
 [singularity]: http://singularity.lbl.gov/
 [travis_badge]: https://img.shields.io/travis/papaemmelab/toil_example.svg
-[travis_base]: https://travis-ci.org/papaemmelab/toil_example
+[travis_base]: https://travis-ci.com/papaemmelab/toil_example
